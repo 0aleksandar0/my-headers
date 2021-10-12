@@ -79,10 +79,10 @@ const NavMenu = styled.div`
                 left: 0;
                 right: 0;
                 bottom: -6px;
-                opacity: 0;
+                opacity: 0; /*hiding*/
                 transform-origin: left center; 
-                transition: all 450ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-                transform: scaleX(0);
+                transition: all 450ms cubic-bezier(0.25, 0.46, 0.45, 0.94); /* makes a delayed effect*/
+                transform: scaleX(0); /*hiding*/
             }
         }
         &:hover {
