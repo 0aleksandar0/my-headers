@@ -7,17 +7,6 @@ import { Translate } from '@mui/icons-material';
 import { selectProject } from "../components/features/project/myProjects";
 import { useSelector } from "react-redux";
 
-/*function hideBtn() {
-    const customMenu = document.getElementById("customMenu");
-    var menuStatus = true;
-    customMenu.addEventListener("click", function(){
-        menuStatus = false;
-        if (menuStatus === false){
-            customMenu.style.display = "none";
-        }
-    });
-}*/
-
 function Header() {
     const [navStatus, setNavStatus] = useState(false);
     const projects = useSelector(selectProject);
